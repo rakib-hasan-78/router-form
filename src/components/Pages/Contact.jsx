@@ -1,6 +1,7 @@
 import React from 'react';
 // import BasicCont from '../Component/BasicCont/BasicCont';
-import ObjForm from './../Component/ObjForm/ObjForm';
+// import ObjForm from './../Component/ObjForm/ObjForm';
+import FormRef from './../Component/FormRef/FormRef';
 
 const Contact = () => {
     const submitHandler = () =>{
@@ -12,7 +13,8 @@ const Contact = () => {
             <main>
                 {/* <BasicCont givenHandler={submitHandler} /> */}
             {
-                <ObjForm handler={submitHandler} />
+                // ** <ObjForm handler={submitHandler} />
+                <FormRef hand ={submitHandler} />
             }
             </main>
         </section>

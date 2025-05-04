@@ -33,7 +33,7 @@ const ObjForm = ({handler}) => {
                 <input
                 className='bg-green-600 py-2.5 min-w-full rounded-xl text-lg uppercase cursor-pointer' type="submit" value="submit" />
             </form>
-        </div> 
+       </div> 
     );
 };
 
