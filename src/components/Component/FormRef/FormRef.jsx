@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 
 const FormRef = ({hand}) => {
     let name , email, password = useRef();
+
     const formHandler = (e)=>{
         e.preventDefault();
         const data = {

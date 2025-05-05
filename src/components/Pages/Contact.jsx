@@ -1,7 +1,8 @@
 import React from 'react';
+import FocusRef from '../Component/FocusRef/FocusRef';
 // import BasicCont from '../Component/BasicCont/BasicCont';
 // import ObjForm from './../Component/ObjForm/ObjForm';
-import FormRef from './../Component/FormRef/FormRef';
+//import FormRef from './../Component/FormRef/FormRef';
 
 const Contact = () => {
     const submitHandler = () =>{
@@ -11,10 +12,11 @@ const Contact = () => {
     return (
         <section className='w-full h-auto'>
             <main>
-                {/* <BasicCont givenHandler={submitHandler} /> */}
             {
+                //* <BasicCont givenHandler={submitHandler} /> 
                 // ** <ObjForm handler={submitHandler} />
-                <FormRef hand ={submitHandler} />
+                //**<FormRef hand ={submitHandler} />
+                <FocusRef submit={submitHandler} />
             }
             </main>
         </section>
