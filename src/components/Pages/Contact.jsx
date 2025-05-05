@@ -1,5 +1,6 @@
 import React from 'react';
-import FocusRef from '../Component/FocusRef/FocusRef';
+import CustomHook from '../Component/CustomHook/CustomHook';
+// import FocusRef from '../Component/FocusRef/FocusRef';
 // import BasicCont from '../Component/BasicCont/BasicCont';
 // import ObjForm from './../Component/ObjForm/ObjForm';
 //import FormRef from './../Component/FormRef/FormRef';
@@ -16,7 +17,8 @@ const Contact = () => {
                 //* <BasicCont givenHandler={submitHandler} /> 
                 // ** <ObjForm handler={submitHandler} />
                 //**<FormRef hand ={submitHandler} />
-                <FocusRef submit={submitHandler} />
+                //**<FocusRef submit={submitHandler} />
+                <CustomHook hand={submitHandler} />
             }
             </main>
         </section>
